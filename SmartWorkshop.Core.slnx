@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SmartWorkshop.Core.Api/SmartWorkshop.Core.Api.csproj" />
+  <Project Path="SmartWorkshop.Core.Application/SmartWorkshop.Core.Application.csproj" />
+  <Project Path="SmartWorkshop.Core.Domain/SmartWorkshop.Core.Domain.csproj" />
+  <Project Path="SmartWorkshop.Core.Infrastructure/SmartWorkshop.Core.Infrastructure.csproj" />
+  <Project Path="SmartWorkshop.Core.Tests/SmartWorkshop.Core.Tests.csproj" />
+</Solution>
