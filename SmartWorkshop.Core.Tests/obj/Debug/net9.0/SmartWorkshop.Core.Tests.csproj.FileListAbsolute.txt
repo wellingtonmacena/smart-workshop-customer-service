@@ -3,3 +3,4 @@ C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-custo
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Tests\obj\Debug\net9.0\SmartWorkshop.Core.Tests.AssemblyInfoInputs.cache
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Tests\obj\Debug\net9.0\SmartWorkshop.Core.Tests.AssemblyInfo.cs
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Tests\obj\Debug\net9.0\SmartWorkshop.Core.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Tests\obj\Debug\net9.0\SmartWorkshop.Core.Tests.sourcelink.json

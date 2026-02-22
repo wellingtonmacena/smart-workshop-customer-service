@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace SmartWorkshop.Core.Domain.ValueObjects;
+namespace SmartWorkshop.Workshop.Domain.ValueObjects;
 
 public record LicensePlate
 {

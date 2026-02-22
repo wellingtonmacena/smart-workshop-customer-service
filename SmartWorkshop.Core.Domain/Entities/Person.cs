@@ -1,14 +1,13 @@
-using SmartWorkshop.Core.Domain.Common;
-using SmartWorkshop.Core.Domain.ValueObjects;
+using SmartWorkshop.Workshop.Domain.Common;
+using SmartWorkshop.Workshop.Domain.ValueObjects;
 
-namespace SmartWorkshop.Core.Domain.Entities;
+namespace SmartWorkshop.Workshop.Domain.Entities;
 
-public class Person : Common.Entity
+public class Person : Entity
 {
     private Person() { }
 
-    public Person(string fullname, string document, PersonType personType, EmployeeRole? employeeRole,
-                  string email, string password, Phone phone, Address? address)
+    public Person(string fullname, string document, PersonType personType, EmployeeRole? employeeRole, string email, string password, Phone phone, Address? address)
     {
         Address = new Address(string.Empty, string.Empty, string.Empty, string.Empty);
         Update(fullname, document, personType, employeeRole, email, password, phone, address);
@@ -25,9 +24,7 @@ public class Person : Common.Entity
     public Address Address { get; private set; } = null!;
     public ICollection<Vehicle> Vehicles { get; private set; } = [];
 
-    public Person Update(string fullname, string document, PersonType personType,
-                         EmployeeRole? employeeRole, string email, string password,
-                         Phone phone, Address? address)
+    public Person Update(string fullname, string document, PersonType personType, EmployeeRole? employeeRole, string email, string password, Phone phone, Address? address)
     {
         if (!string.IsNullOrEmpty(document)) Document = document;
         if (!string.IsNullOrEmpty(fullname)) Fullname = fullname;
@@ -37,7 +34,6 @@ public class Person : Common.Entity
         UpdatePhone(phone);
         UpdateEmail(email);
         UpdateAddress(address);
-        MarkAsUpdated();
         return this;
     }
 

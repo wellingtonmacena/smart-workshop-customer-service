@@ -1,34 +1,33 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace SmartWorkshop.Core.Domain.ValueObjects;
+namespace SmartWorkshop.Workshop.Domain.ValueObjects;
 
 public record Password
 {
     private Password() { }
 
-    private Password(string value, bool isHashed = false)
+    private Password(string value)
     {
-        Value = isHashed ? value : HashPassword(value);
+        Value = HashPassword(value);
     }
 
     public string Value { get; private set; } = string.Empty;
 
-    public static implicit operator Password(string value) => new Password(value);
-    public static implicit operator string(Password password) => password.Value;
-
-    public static Password FromHash(string hash) => new Password(hash, isHashed: true);
+    public bool Verify(string password)
+    {
+        return Value == HashPassword(password);
+    }
 
     private static string HashPassword(string password)
     {
+        if (string.IsNullOrWhiteSpace(password)) return string.Empty;
+
         using var sha256 = SHA256.Create();
         var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
         return Convert.ToBase64String(hashedBytes);
     }
 
-    public bool Verify(string password)
-    {
-        var hashedInput = HashPassword(password);
-        return hashedInput == Value;
-    }
+    public static implicit operator Password(string value) => new Password(value);
+    public static implicit operator string(Password password) => password.Value;
 }

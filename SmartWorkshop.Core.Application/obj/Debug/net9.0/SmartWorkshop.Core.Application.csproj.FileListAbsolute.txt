@@ -32,3 +32,4 @@ C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-custo
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Application\obj\Debug\net9.0\refint\SmartWorkshop.Core.Application.dll
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Application\obj\Debug\net9.0\SmartWorkshop.Core.Application.pdb
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Application\obj\Debug\net9.0\ref\SmartWorkshop.Core.Application.dll
+C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Application\obj\Debug\net9.0\SmartWorkshop.Core.Application.sourcelink.json

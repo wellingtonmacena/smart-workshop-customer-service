@@ -1,6 +1,8 @@
-namespace SmartWorkshop.Core.Domain.Entities;
+using SmartWorkshop.Workshop.Domain.Common;
 
-public sealed class Address : Common.Entity
+namespace SmartWorkshop.Workshop.Domain.Entities;
+
+public sealed class Address : Entity
 {
     private Address() { }
 
@@ -16,7 +18,7 @@ public sealed class Address : Common.Entity
     public string City { get; private set; } = string.Empty;
     public string State { get; private set; } = string.Empty;
     public string ZipCode { get; private set; } = string.Empty;
-    public Person? Person { get; private set; }
+    public Person Person { get; private set; } = null!;
 
     public void Update(Address? address)
     {
@@ -26,7 +28,5 @@ public sealed class Address : Common.Entity
         if (!string.IsNullOrEmpty(address.City)) City = address.City;
         if (!string.IsNullOrEmpty(address.State)) State = address.State;
         if (!string.IsNullOrEmpty(address.ZipCode)) ZipCode = address.ZipCode;
-
-        MarkAsUpdated();
     }
 }

@@ -287,3 +287,4 @@ C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-custo
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Api\obj\Debug\net9.0\SmartWorkshop.Core.Api.pdb
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Api\obj\Debug\net9.0\SmartWorkshop.Core.Api.genruntimeconfig.cache
 C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Api\obj\Debug\net9.0\ref\SmartWorkshop.Core.Api.dll
+C:\Users\Wellington\OneDrive\Desktop\github\POS-FIAP-TECH04\smart-workshop-customer-service\SmartWorkshop.Core.Api\obj\Debug\net9.0\SmartWorkshop.Core.Api.sourcelink.json

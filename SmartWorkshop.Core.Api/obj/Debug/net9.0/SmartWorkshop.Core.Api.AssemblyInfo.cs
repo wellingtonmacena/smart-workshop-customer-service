@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartWorkshop.Core.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0c5d6089a91fc355209068c49c959d8c8cac1f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartWorkshop.Core.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartWorkshop.Core.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
